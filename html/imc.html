@@ -1,0 +1,46 @@
+<div class="imcmain">
+    <h2>Calculo de IMC</h2>
+    <h3>Tabela de Índice de Massa Corporal</h3>
+    <table class="imc-table">
+        <tr>
+            <th>IMC</th>
+            <th>Resultado</th>            
+        </tr>
+        <hr>
+        <tr>
+            <td>Abaixo de 18,5</td>
+            <td>Abaixo do Peso</td>
+        </tr>
+        <tr>
+            <td>Entre 18,5 e 24,9</td>
+            <td>Peso Normal</td>
+        </tr>
+        <tr>
+            <td>Entre 25,0 e 29,9</td>
+            <td>Sobrepeso</td>
+        </tr>
+        <tr>
+            <td>Entre 30,0 e 34,9</td>
+            <td>Obesidade Grau I</td>   
+        </tr>
+        <tr>
+            <td>Entre 35,0 e 39,9</td>
+            <td>Obesidade Grau II</td>
+        </tr>
+        <tr>
+            <td>Acima de 40,0</td>
+            <td>Obesidade Grau III</td>
+        </tr>
+    </table>
+        <form class="form">
+        <label>Peso (kg):
+            <input class="peso" type="number" required>
+        </label>
+        <label>Altura (m):
+            <input class="altura" type="number" step="0.01" required>
+        </label>
+            <button type="submit">Calcular</button>
+        </form>
+    <div class="resultado"></div>
+
+</div>

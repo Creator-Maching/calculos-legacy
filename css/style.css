@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: gid-flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    color: white;
+    background-image: url('./image/Karn-Living-Legacy.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo{
+    font-size: 75px;
+    padding-bottom: 50px;
+    color:rgba(230, 14, 14, 0.507);
+    text-shadow: 2px 2px 4px #000000;
+    margin-left: 600px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+    background-color: rgb(190, 137, 39);
+    border-radius: 30px;
+    text-shadow: 2px #000000;
+    margin-left: 100px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 3, 3, 0.507);
+}
+
+.container{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(78, 48, 9, 0.507);
+    border-radius: 30px
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(18, 207, 43);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* imc */
+
+.imc-table{
+    width: 50%;
+    border: 1px solid black;
+    padding: 15px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+.form{
+    margin-top: 20px;
+}
+
+.imc-resultado{
+    background-color: red;
+}
+
+.imcmain{
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: rgba(138, 24, 24, 0.507);
+    border-radius: 30px
+}
+
+.imc-table{
+    margin-left: 300px;
+}
+
+.dados{
+    background-color: red;
+    margin-top: 20px;
+}
+
+/* juros simple e composto */
+.titulo2{
+    margin-bottom: 20px;
+}
+
+/* cronometro */
+.control{
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(138, 24, 24, 0.507);
+    border-radius: 30px
+}
+
+.timer{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+/* calculadora */
+.calculadora{
+    margin-top: 100px;
+    margin-right: 400px;
+    margin-left: 500px;
+    background-color: rgba(138, 24, 24, 0.507);
+    text-align: center;
+    border-radius: 30px
+}
+
+.conta{
+    font-size: 15px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(206, 194, 29);
+}
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .titulo {
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container, .imcmain, .control, .calculadora {
+        margin: 20px auto;
+        width: 90%;
+        padding: 20px;
+    }
+
+    .imc-table {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    a {
+        display: block;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 30px;
+    }
+
+    button {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .timer {
+        font-size: 50px;
+    }
+}
