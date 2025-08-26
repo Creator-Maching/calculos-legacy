@@ -25,17 +25,6 @@ A ideia é centralizar várias ferramentas matemáticas em uma única interface 
 - CSS3  
 - JavaScript  
 
-## 📂 Estrutura do Projeto
-calculos-legacy/
-│── index.html # Página inicial com menu de navegação
-│── imc.html # Cálculo de IMC
-│── calculadora.html # Calculadora simples
-│── timer.html # Timer
-│── juros-simples.html
-│── juros-compostos.html
-│── style.css # Estilos principais
-│── script.js # Lógica em JavaScript
-
 
 ## 📱 Responsividade
 
